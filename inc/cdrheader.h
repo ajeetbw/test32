@@ -11,6 +11,8 @@
 #include <unistd.h>
 #include <pthread.h>
 
+
+
 #define MAX_BUFF 1024      // Maximum size for buffer
 #define PORT_NO 65534      // Port number for socket communication
 #define MAX_LINE_LEN 1024  // Maximum length of a line
