@@ -9,6 +9,8 @@
 // Set the current debug level here
 #define DEBUG_LEVEL DEBUG_LEVEL_DEBUG
 
+
+
 // Debug macros
 #if DEBUG_LEVEL >= DEBUG_LEVEL_ERROR
 #define DEBUG_ERROR(msg) fprintf(stderr, "[ERROR] %s\n", msg)
